@@ -1,19 +1,16 @@
 {
-  "name": "contactsapp",
+  "name": "crm-backend",
   "version": "0.1.0",
-  "description": "node powered backend for contacts app",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nigilan/crm-backend.git"
-  },
-  "author": "contacts team",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nigilan/crm-backend/issues"
-  },
-  "homepage": "https://github.com/nigilan/crm-backend#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
 }
